@@ -1,0 +1,17 @@
+from main import HangMan
+
+hang = HangMan()
+hang.start_game()
+hang.make_choose('Q')
+hang.make_choose('Q')
+hang.make_choose('Q')
+hang.make_choose('X')
+hang.restart_game()
+hang.make_choose('X')
+hang.make_choose('G')
+hang.make_choose('B')
+hang.make_choose('B')
+hang.make_choose('O')
+hang.make_choose('S')
+hang.make_choose('T')
+hang.make_choose('U')
